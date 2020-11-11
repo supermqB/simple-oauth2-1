@@ -6,8 +6,8 @@ const { AuthorizationCode } = require('./../');
 createApplication(({ app, callbackUrl }) => {
   const client = new AuthorizationCode({
     client: {
-      id: process.env.CLIENT_ID,
-      secret: process.env.CLIENT_SECRET,
+      id: 'f3094ab7e7faf3a3c9c9',
+      secret: '75122388eab0ce247b412404bab0338402da1dc1',
     },
     auth: {
       tokenHost: 'https://github.com',
